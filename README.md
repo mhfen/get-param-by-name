@@ -1,4 +1,6 @@
 # get-param-by-name
+![npm](https://img.shields.io/npm/v/get-param-by-name.svg)
+![CircleCI (all branches)](https://img.shields.io/circleci/project/github/mhfen/get-param-by-name/master.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
