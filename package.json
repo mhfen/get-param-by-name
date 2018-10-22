@@ -1,0 +1,41 @@
+{
+  "name": "get-param-by-name",
+  "version": "1.0.0",
+  "description": "A JavaScript utility for retrieving a parameter value by name from a URL.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhfen/get-param-by-name.git"
+  },
+  "keywords": [
+    "utility",
+    "parameter",
+    "name",
+    "url"
+  ],
+  "author": "Matt Fender <mhfender@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhfen/get-param-by-name/issues"
+  },
+  "homepage": "https://github.com/mhfen/get-param-by-name#readme",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleNameMapper": {
+      "^~/(.*)$": "<rootDir>/$1"
+    }
+  }
+}
