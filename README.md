@@ -1,4 +1,6 @@
 # get-param-by-name
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 A JavaScript utility for retrieving a parameter value by name from a URL.
 
