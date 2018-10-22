@@ -4,7 +4,8 @@
   "description": "A JavaScript utility for retrieving a parameter value by name from a URL.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/mhfen/get-param-by-name#readme",
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0"
