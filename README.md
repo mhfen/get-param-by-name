@@ -33,3 +33,9 @@ $ npm install
 ```bash
 $ npm test
 ```
+
+### Run a babel transpile
+
+```bash
+$ npm run build
+```
