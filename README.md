@@ -11,7 +11,11 @@ Please note: this package is really only needed if you have Internet Explorer su
 ## Install
 
 ```bash
-$ npm install --save-dev get-param-by-name
+$ npm install --save get-param-by-name
+```
+or
+```bash
+$ yarn add get-param-by-name
 ```
 
 ## Usage
