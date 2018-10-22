@@ -1,4 +1,4 @@
-import getParamByName from '~/dist/index';
+import getParamByName from '~/src/index';
 
 describe('Get Param By Name', () => {
   it('returns null if there are no matches', () => {
@@ -22,6 +22,16 @@ describe('Get Param By Name', () => {
     const value = 'some-value';
     const url = `http://some-url.com/?${search}=${value}`;
     const result = getParamByName(search, url);
+
+    expect(result).toBe(value);
+  });
+
+  it('should strip away unnecessary characters', () => {
+    const badSearch = 'te\st';
+    const search = 'test';
+    const value = 'some-value';
+    const url = `http://some-url.com/?${search}=${value}`;
+    const result = getParamByName(badSearch, url);
 
     expect(result).toBe(value);
   });
