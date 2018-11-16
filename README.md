@@ -33,17 +33,17 @@ Create an Issue if there is not already one created. Open up a Pull Request agai
 ### Install Dependencies
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ### Run Tests
 
 ```bash
-$ npm test
+$ yarn test
 ```
 
 ### Run a babel transpile
 
 ```bash
-$ npm run build
+$ yarn build
 ```
