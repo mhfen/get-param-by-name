@@ -1,6 +1,6 @@
 {
   "name": "get-param-by-name",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript utility for retrieving a parameter value by name from a URL.",
   "main": "dist/index.js",
   "scripts": {
