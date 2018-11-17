@@ -1,6 +1,6 @@
 {
   "name": "get-param-by-name",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript utility for retrieving a parameter value by name from a URL.",
   "main": "dist/index.js",
   "scripts": {
@@ -24,14 +24,11 @@
   },
   "homepage": "https://github.com/mhfen/get-param-by-name#readme",
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0"
-  },
-  "resolutions": {
-    "@babel/core": "^7.1.6"
   },
   "jest": {
     "moduleFileExtensions": [
